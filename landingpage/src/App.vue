@@ -1,17 +1,24 @@
 <template>
   <v-app>
-    <AppBar />
     <v-main>
-      <HomeView />
-      <DataBinding />
+      <component :is="layout">
+        <router-view />
+      </component>
     </v-main>
   </v-app>
 </template>
 
 <script setup>
-import HomeView from './views/HomeView.vue'
 import AppBar from '@/components/AppBar.vue'
-import DataBinding from '@/components/DataBinding.vue'
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+import DefaultLayout from '@/layouts/DefaultLayout.vue';
+
+const route = useRoute();
+
+const layout = computed(() => {
+  return route.meta.layout || 'DefaultLayout'; // Default to a div if no layout is specified
+});
 </script>
 
 <style lang="scss" scoped></style>

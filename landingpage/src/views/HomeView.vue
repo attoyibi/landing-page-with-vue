@@ -1,10 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import ContactMe from '../components/ContactMe.vue'
+import HeroSection from '../components/HeroSection.vue'
 </script>
 
 <template>
   <main>
-    <!-- <TheWelcome /> -->
-    component props
+    <HeroSection />
+    <!-- <ContactMe /> -->
   </main>
 </template>

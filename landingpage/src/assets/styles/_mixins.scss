@@ -1,0 +1,17 @@
+// Mixin untuk flexbox center
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  // Mixin untuk responsive breakpoints
+  @mixin responsive($breakpoint) {
+    @if $breakpoint == mobile {
+      @media (max-width: 600px) { @content; }
+    }
+    @else if $breakpoint == tablet {
+      @media (max-width: 960px) { @content; }
+    }
+  }
+  

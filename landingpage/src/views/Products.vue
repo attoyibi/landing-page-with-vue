@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Data Binding</h1>
+        <h1>List Products </h1>
     </div>
 </template>
 
