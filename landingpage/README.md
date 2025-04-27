@@ -1,6 +1,7 @@
 # landingpage
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 in Vite. 
+<p>Rereference design : <a href="https://southeastengineeringgroup.com/" target="_blank">Design Reference</a></p>
 
 ## Recommended IDE Setup
 
