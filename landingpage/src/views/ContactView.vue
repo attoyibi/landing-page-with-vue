@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <div class="about">
-      <h1>This is an Contact form</h1>
+      <h1 class="text-center">This is an Contact form</h1>
       <ContactMe/>
       <TableContact />
     </div>
