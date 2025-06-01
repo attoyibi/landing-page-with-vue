@@ -29,6 +29,12 @@ const router = createRouter({
           component: HomeView,
         },
         {
+          name:'products',
+          name : 'products',
+          path: 'products',
+          component: Products,
+        },
+        {
           path: 'login',
           name: 'login',
           component: LoginPage,
@@ -48,6 +54,11 @@ const router = createRouter({
           name: 'contact',
           component: ContactView, // Lazy-loading bisa dilakukan jika diperlukan
         },
+        {
+          path: 'products/:id',
+          name: 'product-detail',
+          component: () => import('../views/ProductDetail.vue'),
+        }
       ],
     },
     {

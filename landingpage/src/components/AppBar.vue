@@ -10,6 +10,9 @@
         <v-btn text to="/contact">
           Contact Me
         </v-btn>
+        <v-btn text to="/products">
+          Products
+        </v-btn>
         <v-btn text to="/dashboard">
           Dashboard
         </v-btn>

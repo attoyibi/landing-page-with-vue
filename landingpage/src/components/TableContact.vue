@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>TableContact</h1>
+        <h1 class="text-center">TableContact</h1>
     </div>
 </template>
 
