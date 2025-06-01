@@ -1,22 +1,22 @@
 <template>
     <v-container fluid class="hero-section">
-      <v-row class="hero-content">
-        <!-- 📍 Kiri: Teks -->
-        <v-col cols="12" md="6" class="hero-text">
+      <v-row class="hero-content d-flex justify-center justify-lg-start">
+        <!-- Kiri: Teks -->
+        <v-col cols="12" md="6" class="hero-text text-center text-lg-start">
           <h1 class="text-h2 font-weight-bold">
             Hi, I'm <span class="text-primary">Muchson</span>
           </h1>
           <p class="text-body-1">
             A Front-End Engineer passionate about building scalable, high-performance applications.
           </p>
-          <div class="mt-5 d-flex" style="gap:16px">
+          <div class="mt-5 d-flex justify-center justify-lg-start" style="gap:16px">
             <v-btn color="primary" size="large" variant="flat">Download CV</v-btn>
             <v-btn color="secondary" size="large" variant="outlined">Contact Me</v-btn>
           </div>
         </v-col>
   
-        <!-- 📍 Kanan: Gambar -->
-        <v-col cols="12" md="6" class="d-flex justify-center">
+        <!--  Kanan: Gambar -->
+        <v-col cols="12" md="6" class="d-flex justify-center justify-md-start">
           <v-img
             class="hero-image"
             :src="profileImage"
