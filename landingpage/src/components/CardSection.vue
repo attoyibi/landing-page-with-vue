@@ -5,7 +5,7 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, maxime.</p>
         </div>
         <v-row class="justify-center">
-            <v-col v-for="item in items" :key="item" cols="12" md="6" lg="4" class="d-flex justify-center">
+            <v-col v-for="item in items" :key="item" cols="12" md="6" lg="4" class="d-flex justify-center" max-width="357px">
                 <v-card class="ma-2" max-width="100%">
                     <v-img
                     height="200px"
